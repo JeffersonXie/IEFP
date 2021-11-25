@@ -1,6 +1,8 @@
 # IEFP
 This repo is the official implementation of our paper entitled "Implicit and Explicit Feature Purification for Age-invariant Facial Representation Learning"
 
+![IEFP framework](3_stage_pipeline_5.png)
+
 ## Requirements
 - Pytorch >= 1.1
 - Python >= 3.7
