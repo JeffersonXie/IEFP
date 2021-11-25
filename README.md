@@ -14,4 +14,9 @@ This repo is the official implementation of our paper entitled "Implicit and Exp
 1. You can use [MS1MV3](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_) (i.e. MS1M-RetinaFace on the webpage) or other desired face datasets as the training set. Before the normal network learning, some preprocessing need to be done to those traning samples.
 2. The image name needs to be changed. For example, the original name of an image is 05179510.jpg, then the renewed name shoud be 05179510_age_39.jpg.
 
+### Download the pretained models
+1. pretained [age estimation branch](https://drive.google.com/file/d/1h77KtVKgoUdOtErBWRhdb4gdgZUCOtgd/view?usp=sharing)
+2. [IEFP model](https://drive.google.com/file/d/14ja6v_0ZkgcCtUYDSvTwJX2c2Z8oVkEW/view?usp=sharing) trained on MS1MV3 dataset 
 
+### training and testing
+1. You can refer to train.py and test.py
