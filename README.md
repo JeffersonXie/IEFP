@@ -15,6 +15,7 @@ Please download the following four processed face datasets for evaluation purpos
 ### Prepare face datasts for model training
 1. You can use [MS1MV3](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_) (i.e. MS1M-RetinaFace on the webpage) or other desired face datasets as the training set. Before the normal network learning, some preprocessing need to be done to those traning samples.
 2. The image name needs to be changed. For example, the original name of an image is 05179510.jpg, then the renewed name shoud be 05179510_age_39.jpg.
+3. You should emply well-performed age prediction model to infer the choronological age for the training image samlple if the dataset itself provides no age information.
 
 ### Download the pretained models
 1. Pretained [age estimation branch](https://drive.google.com/file/d/1h77KtVKgoUdOtErBWRhdb4gdgZUCOtgd/view?usp=sharing)
