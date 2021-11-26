@@ -18,9 +18,9 @@ Please download the following four processed face datasets for evaluation purpos
 3. You should emply well-performed age prediction model to infer the choronological age for the training image samlple if the dataset itself provides no age information.
 
 ### Download the pretained models
-1. Pretained [age estimation branch](https://drive.google.com/file/d/1h77KtVKgoUdOtErBWRhdb4gdgZUCOtgd/view?usp=sharing)
-2. [IEFP model](https://drive.google.com/file/d/14ja6v_0ZkgcCtUYDSvTwJX2c2Z8oVkEW/view?usp=sharing) trained on MS1MV3 dataset 
+1. Pretained [age estimation branch](https://drive.google.com/file/d/1h77KtVKgoUdOtErBWRhdb4gdgZUCOtgd/view?usp=sharing). Put it in the folder "pretrained_age_estimation_models".
+2. [IEFP model](https://drive.google.com/file/d/14ja6v_0ZkgcCtUYDSvTwJX2c2Z8oVkEW/view?usp=sharing) trained on MS1MV3 dataset. Put it in the folder "pretrained_IEFP_models".
 
 ### training and testing
 1. You can refer to [train.py](train.py) and [test.py](test.py)
-2. You can check the performance of IEFP model on four benchmaks by runnig [test.sh](test.sh)
+2. You can check the performance of IEFP model on four benchmaks by running [test.sh](test.sh)
