@@ -30,7 +30,7 @@ Please download the following four processed face datasets for evaluation purpos
 If you find this code useful to your research, please consider citing our paper as follows:
 
 ```
-@Article{Jeffersonxie2022iefp,
+@article{Jeffersonxie:2022iefp,
       author = {Xie, Jiu-Cheng and Pun, Chi-Man and Lam, Kin-Man},
       title = {Implicit and Explicit Feature Purification for Age-invariant Facial Representation Learning},
       booktitle = {IEEE Transactions on Information Forensics and Security},
