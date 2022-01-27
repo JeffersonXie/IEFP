@@ -24,3 +24,18 @@ Please download the following four processed face datasets for evaluation purpos
 ### training and testing
 1. You can refer to [train.py](train.py) and [test.py](test.py)
 2. You can check the performance of IEFP model on four benchmaks by running [test.sh](test.sh)
+
+
+## Citation
+If you find this code useful to your research, please consider citing our paper as follows:
+
+```
+@Article{Jeffersonxie2022iefp,
+      author = {Xie, Jiu-Cheng and Pun, Chi-Man and Lam, Kin-Man},
+      title = {Implicit and Explicit Feature Purification for Age-invariant Facial Representation Learning},
+      booktitle = {IEEE Transactions on Information Forensics and Security},
+      volume = {17},
+      year = {2022},
+      pages = {399-412}
+}
+```
